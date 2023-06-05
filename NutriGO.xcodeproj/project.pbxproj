@@ -7,21 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047185362A2E2A7F006C5181 /* Resep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471852F2A2E2A7F006C5181 /* Resep.swift */; };
+		047185372A2E2A7F006C5181 /* AirMinum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185302A2E2A7F006C5181 /* AirMinum.swift */; };
+		047185382A2E2A7F006C5181 /* Hasil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185312A2E2A7F006C5181 /* Hasil.swift */; };
+		047185392A2E2A7F006C5181 /* Artikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185322A2E2A7F006C5181 /* Artikel.swift */; };
+		0471853A2A2E2A7F006C5181 /* DataPengguna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185332A2E2A7F006C5181 /* DataPengguna.swift */; };
+		0471853B2A2E2A7F006C5181 /* KalkulatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185342A2E2A7F006C5181 /* KalkulatorData.swift */; };
+		0471853C2A2E2A7F006C5181 /* Makanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185352A2E2A7F006C5181 /* Makanan.swift */; };
+		047185472A2E2AE6006C5181 /* ViewArtikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471853E2A2E2AE6006C5181 /* ViewArtikel.swift */; };
+		047185482A2E2AE6006C5181 /* ViewAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471853F2A2E2AE6006C5181 /* ViewAlarm.swift */; };
+		047185492A2E2AE6006C5181 /* ViewDetailResep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185402A2E2AE6006C5181 /* ViewDetailResep.swift */; };
+		0471854A2A2E2AE6006C5181 /* ViewAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185412A2E2AE6006C5181 /* ViewAchievement.swift */; };
+		0471854B2A2E2AE6006C5181 /* ViewAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185422A2E2AE6006C5181 /* ViewAir.swift */; };
+		0471854C2A2E2AE6006C5181 /* ViewDetailArtikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185432A2E2AE6006C5181 /* ViewDetailArtikel.swift */; };
+		0471854D2A2E2AE6006C5181 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185442A2E2AE6006C5181 /* ProgressCircleView.swift */; };
+		0471854E2A2E2AE6006C5181 /* ViewKalkulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185452A2E2AE6006C5181 /* ViewKalkulator.swift */; };
+		0471854F2A2E2AE6006C5181 /* ViewPelacak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185462A2E2AE6006C5181 /* ViewPelacak.swift */; };
+		047185552A2E2AED006C5181 /* ViewModelPelacak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185512A2E2AED006C5181 /* ViewModelPelacak.swift */; };
+		047185562A2E2AED006C5181 /* ViewModelAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185522A2E2AED006C5181 /* ViewModelAir.swift */; };
+		047185572A2E2AED006C5181 /* ViewModelKalkulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185532A2E2AED006C5181 /* ViewModelKalkulator.swift */; };
+		047185582A2E2AED006C5181 /* ViewModelArtikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185542A2E2AED006C5181 /* ViewModelArtikel.swift */; };
+		0471855A2A2E2B03006C5181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185592A2E2B03006C5181 /* ContentView.swift */; };
+		0471855D2A2E2B3A006C5181 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0471855C2A2E2B3A006C5181 /* data.json */; };
+		047185652A2E2B67006C5181 /* NutriGO_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185642A2E2B67006C5181 /* NutriGO_MacOSApp.swift */; };
+		047185692A2E2B68006C5181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047185682A2E2B68006C5181 /* Assets.xcassets */; };
+		0471856C2A2E2B68006C5181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0471856B2A2E2B68006C5181 /* Preview Assets.xcassets */; };
+		047185712A2E2B76006C5181 /* Resep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471852F2A2E2A7F006C5181 /* Resep.swift */; };
+		047185722A2E2B76006C5181 /* KalkulatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185342A2E2A7F006C5181 /* KalkulatorData.swift */; };
+		047185732A2E2B76006C5181 /* AirMinum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185302A2E2A7F006C5181 /* AirMinum.swift */; };
+		047185742A2E2B76006C5181 /* Hasil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185312A2E2A7F006C5181 /* Hasil.swift */; };
+		047185752A2E2B76006C5181 /* Makanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185352A2E2A7F006C5181 /* Makanan.swift */; };
+		047185762A2E2B76006C5181 /* Artikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185322A2E2A7F006C5181 /* Artikel.swift */; };
+		047185772A2E2B76006C5181 /* DataPengguna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185332A2E2A7F006C5181 /* DataPengguna.swift */; };
+		047185782A2E2B7E006C5181 /* ViewModelPelacak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185512A2E2AED006C5181 /* ViewModelPelacak.swift */; };
+		047185792A2E2B7E006C5181 /* ViewModelKalkulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185532A2E2AED006C5181 /* ViewModelKalkulator.swift */; };
+		0471857A2A2E2B7E006C5181 /* ViewModelAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185522A2E2AED006C5181 /* ViewModelAir.swift */; };
+		0471857B2A2E2B7E006C5181 /* ViewModelArtikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185542A2E2AED006C5181 /* ViewModelArtikel.swift */; };
+		0471857D2A2E2BD1006C5181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471857C2A2E2BD1006C5181 /* ContentView.swift */; };
+		047185872A2E2BDD006C5181 /* ViewAchievementMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471857F2A2E2BDD006C5181 /* ViewAchievementMac.swift */; };
+		047185882A2E2BDD006C5181 /* ViewAlarmMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185802A2E2BDD006C5181 /* ViewAlarmMac.swift */; };
+		047185892A2E2BDD006C5181 /* ViewKalkulatorMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185812A2E2BDD006C5181 /* ViewKalkulatorMac.swift */; };
+		0471858A2A2E2BDD006C5181 /* ViewArtikelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185822A2E2BDD006C5181 /* ViewArtikelMac.swift */; };
+		0471858B2A2E2BDD006C5181 /* ViewPelacakMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185832A2E2BDD006C5181 /* ViewPelacakMac.swift */; };
+		0471858C2A2E2BDD006C5181 /* ViewDetailArtikelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185842A2E2BDD006C5181 /* ViewDetailArtikelMac.swift */; };
+		0471858D2A2E2BDD006C5181 /* ViewDetailResepMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185852A2E2BDD006C5181 /* ViewDetailResepMac.swift */; };
+		0471858E2A2E2BDD006C5181 /* ViewAirMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185862A2E2BDD006C5181 /* ViewAirMac.swift */; };
+		0471858F2A2E2C3E006C5181 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185442A2E2AE6006C5181 /* ProgressCircleView.swift */; };
 		04FB26DD2A2348C20016C1DC /* NutriGOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB26DC2A2348C20016C1DC /* NutriGOApp.swift */; };
-		04FB26DF2A2348C20016C1DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB26DE2A2348C20016C1DC /* ContentView.swift */; };
 		04FB26E12A2348C40016C1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB26E02A2348C40016C1DC /* Assets.xcassets */; };
 		04FB26E42A2348C40016C1DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB26E32A2348C40016C1DC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0471852F2A2E2A7F006C5181 /* Resep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resep.swift; sourceTree = "<group>"; };
+		047185302A2E2A7F006C5181 /* AirMinum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirMinum.swift; sourceTree = "<group>"; };
+		047185312A2E2A7F006C5181 /* Hasil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hasil.swift; sourceTree = "<group>"; };
+		047185322A2E2A7F006C5181 /* Artikel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artikel.swift; sourceTree = "<group>"; };
+		047185332A2E2A7F006C5181 /* DataPengguna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPengguna.swift; sourceTree = "<group>"; };
+		047185342A2E2A7F006C5181 /* KalkulatorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KalkulatorData.swift; sourceTree = "<group>"; };
+		047185352A2E2A7F006C5181 /* Makanan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Makanan.swift; sourceTree = "<group>"; };
+		0471853E2A2E2AE6006C5181 /* ViewArtikel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtikel.swift; sourceTree = "<group>"; };
+		0471853F2A2E2AE6006C5181 /* ViewAlarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlarm.swift; sourceTree = "<group>"; };
+		047185402A2E2AE6006C5181 /* ViewDetailResep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailResep.swift; sourceTree = "<group>"; };
+		047185412A2E2AE6006C5181 /* ViewAchievement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAchievement.swift; sourceTree = "<group>"; };
+		047185422A2E2AE6006C5181 /* ViewAir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAir.swift; sourceTree = "<group>"; };
+		047185432A2E2AE6006C5181 /* ViewDetailArtikel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailArtikel.swift; sourceTree = "<group>"; };
+		047185442A2E2AE6006C5181 /* ProgressCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		047185452A2E2AE6006C5181 /* ViewKalkulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewKalkulator.swift; sourceTree = "<group>"; };
+		047185462A2E2AE6006C5181 /* ViewPelacak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPelacak.swift; sourceTree = "<group>"; };
+		047185512A2E2AED006C5181 /* ViewModelPelacak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelPelacak.swift; sourceTree = "<group>"; };
+		047185522A2E2AED006C5181 /* ViewModelAir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelAir.swift; sourceTree = "<group>"; };
+		047185532A2E2AED006C5181 /* ViewModelKalkulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelKalkulator.swift; sourceTree = "<group>"; };
+		047185542A2E2AED006C5181 /* ViewModelArtikel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelArtikel.swift; sourceTree = "<group>"; };
+		047185592A2E2B03006C5181 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0471855C2A2E2B3A006C5181 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		047185622A2E2B67006C5181 /* NutriGO_MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriGO_MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047185642A2E2B67006C5181 /* NutriGO_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriGO_MacOSApp.swift; sourceTree = "<group>"; };
+		047185682A2E2B68006C5181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0471856B2A2E2B68006C5181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0471856D2A2E2B68006C5181 /* NutriGO_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriGO_MacOS.entitlements; sourceTree = "<group>"; };
+		0471857C2A2E2BD1006C5181 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0471857F2A2E2BDD006C5181 /* ViewAchievementMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAchievementMac.swift; sourceTree = "<group>"; };
+		047185802A2E2BDD006C5181 /* ViewAlarmMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlarmMac.swift; sourceTree = "<group>"; };
+		047185812A2E2BDD006C5181 /* ViewKalkulatorMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewKalkulatorMac.swift; sourceTree = "<group>"; };
+		047185822A2E2BDD006C5181 /* ViewArtikelMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtikelMac.swift; sourceTree = "<group>"; };
+		047185832A2E2BDD006C5181 /* ViewPelacakMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPelacakMac.swift; sourceTree = "<group>"; };
+		047185842A2E2BDD006C5181 /* ViewDetailArtikelMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailArtikelMac.swift; sourceTree = "<group>"; };
+		047185852A2E2BDD006C5181 /* ViewDetailResepMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailResepMac.swift; sourceTree = "<group>"; };
+		047185862A2E2BDD006C5181 /* ViewAirMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAirMac.swift; sourceTree = "<group>"; };
 		04FB26D92A2348C20016C1DC /* NutriGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB26DC2A2348C20016C1DC /* NutriGOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriGOApp.swift; sourceTree = "<group>"; };
-		04FB26DE2A2348C20016C1DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04FB26E02A2348C40016C1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FB26E32A2348C40016C1DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0471855F2A2E2B67006C5181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FB26D62A2348C20016C1DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +119,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0471852E2A2E2A7F006C5181 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0471852F2A2E2A7F006C5181 /* Resep.swift */,
+				047185302A2E2A7F006C5181 /* AirMinum.swift */,
+				047185312A2E2A7F006C5181 /* Hasil.swift */,
+				047185322A2E2A7F006C5181 /* Artikel.swift */,
+				047185332A2E2A7F006C5181 /* DataPengguna.swift */,
+				047185342A2E2A7F006C5181 /* KalkulatorData.swift */,
+				047185352A2E2A7F006C5181 /* Makanan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0471853D2A2E2AE6006C5181 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0471853E2A2E2AE6006C5181 /* ViewArtikel.swift */,
+				0471853F2A2E2AE6006C5181 /* ViewAlarm.swift */,
+				047185402A2E2AE6006C5181 /* ViewDetailResep.swift */,
+				047185412A2E2AE6006C5181 /* ViewAchievement.swift */,
+				047185422A2E2AE6006C5181 /* ViewAir.swift */,
+				047185432A2E2AE6006C5181 /* ViewDetailArtikel.swift */,
+				047185442A2E2AE6006C5181 /* ProgressCircleView.swift */,
+				047185452A2E2AE6006C5181 /* ViewKalkulator.swift */,
+				047185462A2E2AE6006C5181 /* ViewPelacak.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047185502A2E2AED006C5181 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				047185512A2E2AED006C5181 /* ViewModelPelacak.swift */,
+				047185522A2E2AED006C5181 /* ViewModelAir.swift */,
+				047185532A2E2AED006C5181 /* ViewModelKalkulator.swift */,
+				047185542A2E2AED006C5181 /* ViewModelArtikel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0471855B2A2E2B3A006C5181 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0471855C2A2E2B3A006C5181 /* data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		047185632A2E2B67006C5181 /* NutriGO_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				047185642A2E2B67006C5181 /* NutriGO_MacOSApp.swift */,
+				0471857C2A2E2BD1006C5181 /* ContentView.swift */,
+				0471857E2A2E2BDD006C5181 /* Views */,
+				047185682A2E2B68006C5181 /* Assets.xcassets */,
+				0471856D2A2E2B68006C5181 /* NutriGO_MacOS.entitlements */,
+				0471856A2A2E2B68006C5181 /* Preview Content */,
+			);
+			path = NutriGO_MacOS;
+			sourceTree = "<group>";
+		};
+		0471856A2A2E2B68006C5181 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0471856B2A2E2B68006C5181 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0471857E2A2E2BDD006C5181 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0471857F2A2E2BDD006C5181 /* ViewAchievementMac.swift */,
+				047185802A2E2BDD006C5181 /* ViewAlarmMac.swift */,
+				047185812A2E2BDD006C5181 /* ViewKalkulatorMac.swift */,
+				047185822A2E2BDD006C5181 /* ViewArtikelMac.swift */,
+				047185832A2E2BDD006C5181 /* ViewPelacakMac.swift */,
+				047185842A2E2BDD006C5181 /* ViewDetailArtikelMac.swift */,
+				047185852A2E2BDD006C5181 /* ViewDetailResepMac.swift */,
+				047185862A2E2BDD006C5181 /* ViewAirMac.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04FB26D02A2348C20016C1DC = {
 			isa = PBXGroup;
 			children = (
 				04FB26DB2A2348C20016C1DC /* NutriGO */,
+				047185632A2E2B67006C5181 /* NutriGO_MacOS */,
 				04FB26DA2A2348C20016C1DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				04FB26D92A2348C20016C1DC /* NutriGO.app */,
+				047185622A2E2B67006C5181 /* NutriGO_MacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				04FB26DC2A2348C20016C1DC /* NutriGOApp.swift */,
-				04FB26DE2A2348C20016C1DC /* ContentView.swift */,
+				047185592A2E2B03006C5181 /* ContentView.swift */,
+				047185502A2E2AED006C5181 /* ViewModels */,
+				0471853D2A2E2AE6006C5181 /* Views */,
+				0471852E2A2E2A7F006C5181 /* Models */,
+				0471855B2A2E2B3A006C5181 /* Resources */,
 				04FB26E02A2348C40016C1DC /* Assets.xcassets */,
 				04FB26E22A2348C40016C1DC /* Preview Content */,
 			);
@@ -70,6 +248,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		047185612A2E2B67006C5181 /* NutriGO_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0471856E2A2E2B68006C5181 /* Build configuration list for PBXNativeTarget "NutriGO_MacOS" */;
+			buildPhases = (
+				0471855E2A2E2B67006C5181 /* Sources */,
+				0471855F2A2E2B67006C5181 /* Frameworks */,
+				047185602A2E2B67006C5181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriGO_MacOS;
+			productName = NutriGO_MacOS;
+			productReference = 047185622A2E2B67006C5181 /* NutriGO_MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		04FB26D82A2348C20016C1DC /* NutriGO */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FB26E72A2348C40016C1DC /* Build configuration list for PBXNativeTarget "NutriGO" */;
@@ -97,6 +292,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					047185612A2E2B67006C5181 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					04FB26D82A2348C20016C1DC = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -116,16 +314,27 @@
 			projectRoot = "";
 			targets = (
 				04FB26D82A2348C20016C1DC /* NutriGO */,
+				047185612A2E2B67006C5181 /* NutriGO_MacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		047185602A2E2B67006C5181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0471856C2A2E2B68006C5181 /* Preview Assets.xcassets in Resources */,
+				047185692A2E2B68006C5181 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FB26D72A2348C20016C1DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04FB26E42A2348C40016C1DC /* Preview Assets.xcassets in Resources */,
+				0471855D2A2E2B3A006C5181 /* data.json in Resources */,
 				04FB26E12A2348C40016C1DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,18 +342,125 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0471855E2A2E2B67006C5181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0471858A2A2E2BDD006C5181 /* ViewArtikelMac.swift in Sources */,
+				047185792A2E2B7E006C5181 /* ViewModelKalkulator.swift in Sources */,
+				0471857A2A2E2B7E006C5181 /* ViewModelAir.swift in Sources */,
+				047185872A2E2BDD006C5181 /* ViewAchievementMac.swift in Sources */,
+				047185782A2E2B7E006C5181 /* ViewModelPelacak.swift in Sources */,
+				0471858D2A2E2BDD006C5181 /* ViewDetailResepMac.swift in Sources */,
+				047185652A2E2B67006C5181 /* NutriGO_MacOSApp.swift in Sources */,
+				0471858B2A2E2BDD006C5181 /* ViewPelacakMac.swift in Sources */,
+				0471857B2A2E2B7E006C5181 /* ViewModelArtikel.swift in Sources */,
+				047185752A2E2B76006C5181 /* Makanan.swift in Sources */,
+				047185772A2E2B76006C5181 /* DataPengguna.swift in Sources */,
+				0471858F2A2E2C3E006C5181 /* ProgressCircleView.swift in Sources */,
+				047185892A2E2BDD006C5181 /* ViewKalkulatorMac.swift in Sources */,
+				047185712A2E2B76006C5181 /* Resep.swift in Sources */,
+				047185762A2E2B76006C5181 /* Artikel.swift in Sources */,
+				0471858E2A2E2BDD006C5181 /* ViewAirMac.swift in Sources */,
+				047185732A2E2B76006C5181 /* AirMinum.swift in Sources */,
+				047185882A2E2BDD006C5181 /* ViewAlarmMac.swift in Sources */,
+				0471857D2A2E2BD1006C5181 /* ContentView.swift in Sources */,
+				047185722A2E2B76006C5181 /* KalkulatorData.swift in Sources */,
+				047185742A2E2B76006C5181 /* Hasil.swift in Sources */,
+				0471858C2A2E2BDD006C5181 /* ViewDetailArtikelMac.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FB26D52A2348C20016C1DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FB26DF2A2348C20016C1DC /* ContentView.swift in Sources */,
+				0471853A2A2E2A7F006C5181 /* DataPengguna.swift in Sources */,
+				047185562A2E2AED006C5181 /* ViewModelAir.swift in Sources */,
+				0471854B2A2E2AE6006C5181 /* ViewAir.swift in Sources */,
+				047185392A2E2A7F006C5181 /* Artikel.swift in Sources */,
+				0471854A2A2E2AE6006C5181 /* ViewAchievement.swift in Sources */,
+				0471854D2A2E2AE6006C5181 /* ProgressCircleView.swift in Sources */,
+				0471854C2A2E2AE6006C5181 /* ViewDetailArtikel.swift in Sources */,
+				0471853B2A2E2A7F006C5181 /* KalkulatorData.swift in Sources */,
+				047185582A2E2AED006C5181 /* ViewModelArtikel.swift in Sources */,
 				04FB26DD2A2348C20016C1DC /* NutriGOApp.swift in Sources */,
+				047185472A2E2AE6006C5181 /* ViewArtikel.swift in Sources */,
+				047185382A2E2A7F006C5181 /* Hasil.swift in Sources */,
+				0471855A2A2E2B03006C5181 /* ContentView.swift in Sources */,
+				0471854E2A2E2AE6006C5181 /* ViewKalkulator.swift in Sources */,
+				0471854F2A2E2AE6006C5181 /* ViewPelacak.swift in Sources */,
+				047185362A2E2A7F006C5181 /* Resep.swift in Sources */,
+				047185372A2E2A7F006C5181 /* AirMinum.swift in Sources */,
+				047185492A2E2AE6006C5181 /* ViewDetailResep.swift in Sources */,
+				047185552A2E2AED006C5181 /* ViewModelPelacak.swift in Sources */,
+				047185482A2E2AE6006C5181 /* ViewAlarm.swift in Sources */,
+				0471853C2A2E2A7F006C5181 /* Makanan.swift in Sources */,
+				047185572A2E2AED006C5181 /* ViewModelKalkulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0471856F2A2E2B68006C5181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriGO_MacOS/NutriGO_MacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriGO_MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.NutriGO-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		047185702A2E2B68006C5181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriGO_MacOS/NutriGO_MacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriGO_MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.NutriGO-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		04FB26E52A2348C40016C1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +636,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0471856E2A2E2B68006C5181 /* Build configuration list for PBXNativeTarget "NutriGO_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0471856F2A2E2B68006C5181 /* Debug */,
+				047185702A2E2B68006C5181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04FB26D42A2348C20016C1DC /* Build configuration list for PBXProject "NutriGO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

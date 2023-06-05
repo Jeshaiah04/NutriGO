@@ -1,0 +1,44 @@
+{
+  "artikel": [
+    {
+      "id": "D49C38F9-32C2-4155-9A9C-CA0E3A7F58E1",
+      "judul": "Manfaat Olahraga",
+      "isi": "Olahraga memiliki banyak manfaat bagi kesehatan fisik dan mental. Beberapa manfaatnya adalah meningkatkan kebugaran jantung, meningkatkan kekuatan otot, mengurangi risiko penyakit kronis, dan meningkatkan mood dan kesejahteraan mental.",
+      "imageName": "olahraga"
+    },
+    {
+      "id": "8D8A4B68-FFAB-4DF6-BF8A-5C87A77A90E5",
+      "judul": "Makanan Sumber Protein",
+      "isi": "Beberapa makanan yang kaya protein antara lain daging, ikan, telur, kacang-kacangan, dan produk susu. Protein penting untuk pertumbuhan dan perbaikan jaringan tubuh, serta membantu menjaga keseimbangan hormon dan memperkuat sistem kekebalan tubuh.",
+      "imageName": "protein"
+    }
+  ],
+  "resep": [
+    {
+      "id": "4E83A08D-6790-4A25-985D-5A24DEBDC4D1",
+      "nama": "Smoothie Buah-buahan",
+      "bahan": [
+        "1 buah pisang",
+        "1 cangkir buah beri",
+        "1/2 cangkir yoghurt",
+        "1 cangkir air"
+      ],
+      "instruksi": "Campur semua bahan dalam blender dan proses hingga halus. Tuang ke dalam gelas dan nikmati.",
+      "imageName": "smoothie"
+    },
+    {
+      "id": "D5C5DD4E-10A6-4D18-9EED-4DEBF123CB7A",
+      "nama": "Salad Sayuran Segar",
+      "bahan": [
+        "2 cangkir selada",
+        "1 buah tomat",
+        "1/2 buah mentimun",
+        "1/4 buah bawang merah",
+        "1 sendok makan dressing salad"
+      ],
+      "instruksi": "Potong semua sayuran dan campur dalam mangkuk. Tambahkan dressing salad dan aduk hingga rata. Sajikan segera.",
+      "imageName": "salad"
+    }
+  ]
+}
+

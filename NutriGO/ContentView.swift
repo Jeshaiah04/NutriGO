@@ -8,19 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var artikelViewModel = ViewModelArtikel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        TabView {
+            ViewArtikel(viewModel: artikelViewModel)
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Beranda")
+                }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+            ViewAir()
+                .tabItem {
+                    Image(systemName: "drop.triangle")
+                    Text("Pengingat")
+                }
+
+            ViewKalkulator()
+                .tabItem {
+                    Image(systemName: "scalemass")
+                    Text("Kalkalori")
+                }
+
+            ViewPelacak()
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Pelacak")
+                }
+        }
+        .background(Color.green)
+        .foregroundColor(Color.black)
     }
 }
