@@ -53,6 +53,7 @@
 		0471858D2A2E2BDD006C5181 /* ViewDetailResepMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185852A2E2BDD006C5181 /* ViewDetailResepMac.swift */; };
 		0471858E2A2E2BDD006C5181 /* ViewAirMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185862A2E2BDD006C5181 /* ViewAirMac.swift */; };
 		0471858F2A2E2C3E006C5181 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047185442A2E2AE6006C5181 /* ProgressCircleView.swift */; };
+		047185902A2E2D6F006C5181 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0471855C2A2E2B3A006C5181 /* data.json */; };
 		04FB26DD2A2348C20016C1DC /* NutriGOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB26DC2A2348C20016C1DC /* NutriGOApp.swift */; };
 		04FB26E12A2348C40016C1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB26E02A2348C40016C1DC /* Assets.xcassets */; };
 		04FB26E42A2348C40016C1DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB26E32A2348C40016C1DC /* Preview Assets.xcassets */; };
@@ -325,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0471856C2A2E2B68006C5181 /* Preview Assets.xcassets in Resources */,
+				047185902A2E2D6F006C5181 /* data.json in Resources */,
 				047185692A2E2B68006C5181 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
